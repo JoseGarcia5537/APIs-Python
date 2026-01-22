@@ -1,0 +1,13 @@
+#Entornos virtuales 
+venv/
+.venv/
+env/
+
+#Archivos de entorno "Credenciales a la BD"
+.env
+
+#Archivos de Python
+__pycache__/
+
+#Archivos de CSV
+registros_personal.csv
