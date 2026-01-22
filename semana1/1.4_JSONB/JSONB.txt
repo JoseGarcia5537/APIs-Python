@@ -1,0 +1,5 @@
+¿Qué es un tipo de dato JSONB en PostgreSQL?
+Es un tipo de dato que permite guardar JSON dentro de una tabla SQL, pero de forma 
+optimizada (se puede indexar y consultar rápido)
+
+Es ideal para configuraciones, metadatos, preferencias, etc.

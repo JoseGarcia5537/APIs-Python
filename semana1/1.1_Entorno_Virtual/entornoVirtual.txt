@@ -1,0 +1,33 @@
+¿Qué es un entorno virtual en Python?
+Un entorno virtual es un espacio aislado donde se pueden instalar librerias y 
+dependencias sin afectar al Python del sistema ni a otros proyectos.
+
+Evita problemas como versiones distintas, conflictos entre proyectos.
+
+Para crear un entorno virtual los comandos clave son los siguientes:
+1.- python3 -m venv venv
+2.- source venv/bin/activate
+3.- pip install request flask 
+4.- desactivate
+5.- pip list para ver librerias del entorno
+
+Guardar dependencias, lo mas recomendado 
+6.- pip freeze > requirements.txt
+7.- pip install -r requirements.txt
+
+esto se debe subir al gitignore
+8.- venv/
+
+
+para el protyecto en python,  creamos el entorno virtual primero 
+python3 -m venv .venv
+
+activamos el entorno virtual 
+source .venv/bin/activate
+
+instalamos para poder trabajar con bd 
+pip install psycopg2-binary
+
+para desactivar el .venv 
+deactivate 
+
