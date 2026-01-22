@@ -2,6 +2,8 @@ import os #Para cargar variables de entorno
 from dotenv import load_dotenv #Para cargar variables de entorno
 import psycopg2
 
+load_dotenv()
+
 #1.- Conexión a la BD
 conn = psycopg2.connect(
     host = os.getenv("DB_HOST"),

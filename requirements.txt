@@ -2,3 +2,6 @@ fastapi[standard]
 pydantic
 psycopg2-binary
 python-dotenv
+SQLAlchemy
+psycopg2
+psycopg

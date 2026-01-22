@@ -1,7 +1,10 @@
 import os #Para cargar variables de entorno
+from dotenv import find_dotenv
 from dotenv import load_dotenv #Para cargar variables de entorno
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, DeclarativeBase
+
+load_dotenv()
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 
